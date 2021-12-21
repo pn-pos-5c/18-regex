@@ -30,3 +30,7 @@ Spezialstrings:
 - (?<first>\w+) (?<middle>\w+) (?<last>\w+)
 
 HTML-Tags mit Attributen:
+- \b<(?<tag>\w*)(?:\s?(?<attr>\w*)="(?<attr_val>\w*)"\s?)+>\b
+
+Palindrom:
+- \b(\w)?(\w)?(\w)\w?\3\2?\1?\b
