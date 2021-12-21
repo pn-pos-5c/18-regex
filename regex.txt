@@ -20,7 +20,6 @@ Kurzaufgaben:
 - (\d+)(\d+)\2\1
 
 Regex für Email-Adressen:
-- ^[a-zA-Z](\w*\.?[a-zA-Z\-]*)+@(\w+\.\w+)+$
 - ^[a-zA-Z](\w*\.?[a-zA-Z\-]*)+@\w+(\.\w+)+$
 
 Spezialstrings:
